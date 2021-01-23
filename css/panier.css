@@ -1,0 +1,38 @@
+header { display: block;
+		 background-color:  rgba(0,0,100,0.5);
+         text-align: center;      
+        font-size:  12pt;
+}
+nav {
+      display: block;
+      float: left;
+      width: 15%;
+      background-color: lightgray;
+}
+
+article {
+    display: block;
+    margin: 5px;
+    padding: 3px;
+    width: 80%;
+    background-color: white;
+    text-align: justify;
+}
+
+input.bouton { background-color : rgb(102, 102, 255);  
+               color : yellow; }
+
+table, td, th { border : 2px solid rgb(51, 0, 153); }
+table { width : 70%;
+        margin: auto;
+        border-collapse : collapse; 
+        border-radius : 10px;
+        box-shadow: 10px 10px 5px gray;   
+ }
+ 
+.total { color : red; 
+         font-weight : bold ;  
+         text-align: right; }
+
+
+.nom { font-weight : bold ; } 
